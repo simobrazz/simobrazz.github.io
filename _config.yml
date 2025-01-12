@@ -16,11 +16,9 @@
 title: gradients.zone
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  A blog to talk about AI, not only tech stuff but also governance, geopolitics and market events.
+# twitter_username: username
+# github_username: username
 minimal_mistakes_skin: default
 search: true
 
@@ -60,11 +58,17 @@ plugins:
 author:
   name   : "Simone Brazzo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Experienced Artificial Intelligence Research Engineer. 
+            The first Italian ISO 42001 AIMS Lead Implementer and one of the pioneers in the EU.
+            Natural leadership, strong communication skills and a great team player.
+            Interested in economics and financial markets."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/simone-brazzo-23027677/"
+    - label: "Email"
+      icon: "fas fa-envelope-square"
+      url: "mailto:simo.brazzo@gmail.com"
 
 footer:
   links:
@@ -81,9 +85,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
