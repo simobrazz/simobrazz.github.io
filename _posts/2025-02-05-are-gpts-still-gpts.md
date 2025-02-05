@@ -15,8 +15,10 @@ What is a General Purpose Technology? Well, it’s a technology that must meet t
 - have a broad impact across all the economy
 - spawn new technologies and innovations
 
-Only few of the technologies developed in the last hundred years can be classified as general purpose, but I can mention e.g. the steam engine, electricity and information technology..
+Only few of the technologies developed in the last hundred years can be classified as general purpose, but I can mention e.g. the steam engine, electricity and information technology.
+<br>
 About point 2 and one year and half after the paper release, I think the economy is still absorbing the potential of LLMs and in general AI. I say “I think” but in reality it is more than just a simple feeling. Among various market research companies, Statista foresees the global AI market to grow from USD 243.70 billion in 2025 to USD 826.70 billion by 2030, with a compound annual growth rate of 27.67%.
+<br>
 Point 3 was deeply discussed in the paper, did we see something in the meanwhile regarding it? Yes of course! Do you remember the robot from [Figure][figureai]? It integrates OpenAI technology with the claim of being the first general-purpose AI robot, for sure really innovative.
 
 What about point 1 “improving over time”? Still improving and how?
