@@ -8,7 +8,7 @@ tags:
   - Computers and Society
 ---
 
-About one year ago I read a research [paper][gptsaregpts] about AI - specifically LLMs - and its intersection with economics and the labor market (US). I was interested in a specific topic discussed by the authors - most of them from OpenAI - on dealing with the fact that General Pretrained Transformers (GPTs), a predominant type of LLM, show traits of General Purpose Technologies (yes, still GPTs).
+About one year ago I read a research [paper][gptsaregpts] about AI - specifically LLMs - and its intersection with economics and the labor market (US). I was interested in a specific topic discussed by the authors - most of them from OpenAI - on dealing with the fact that Generative Pretrained Transformers (GPTs), a prominent type of LLM, show traits of General Purpose Technologies (yes, still GPTs).
 What is a General Purpose Technology? Well, it’s a technology that must meet these three criterias:
 
 - improve over time
