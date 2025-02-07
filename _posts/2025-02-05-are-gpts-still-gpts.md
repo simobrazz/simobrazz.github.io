@@ -8,7 +8,8 @@ tags:
   - Computers and Society
 ---
 
-About one year ago I read a research [paper][gptsaregpts] about AI - specifically LLMs - and its intersection with economics and the labor market (US). I was interested in a specific topic discussed by the authors - most of them from OpenAI - on dealing with the fact that Generative Pretrained Transformers (GPTs), a prominent type of LLM, show traits of General Purpose Technologies (yes, still GPTs).
+About one year ago I read a research [paper][gptsaregpts] about AI - specifically Large Language Models (LLM) - and its intersection with economics and the labor market (US). I was interested in a specific topic discussed by the authors - most of them from OpenAI - regarding the fact that Generative Pretrained Transformers (GPTs), a prominent type of LLM, exhibit traits of General Purpose Technologies (yes, still GPTs).
+<br>
 What is a General Purpose Technology? Well, it’s a technology that must meet these three criterias:
 
 - improve over time
@@ -17,7 +18,9 @@ What is a General Purpose Technology? Well, it’s a technology that must meet t
 
 Only few of the technologies developed in the last hundred years can be classified as general purpose, but I can mention e.g. the steam engine, electricity and information technology.
 <br>
-About point 2 and one year and half after the paper release, I think the economy is still absorbing the potential of LLMs and in general AI. I say “I think” but in reality it is more than just a simple feeling. Among various market research companies, Statista foresees the global AI market to grow from USD 243.70 billion in 2025 to USD 826.70 billion by 2030, with a compound annual growth rate of 27.67%.
+<br>
+About point 2 and one year and half after the paper release, I think the economy is still absorbing the potential of LLMs and in general AI. I say “I think” but in reality it is more than just a simple feeling. Among various market research companies, [Statista][statista] foresees the global AI market to grow from USD 243.70 billion in 2025 to USD 826.70 billion by 2030, with a compound annual growth rate of 27.67%.
+<br>
 <br>
 Point 3 was deeply discussed in the paper, did we see something in the meanwhile regarding it? Yes of course! Do you remember the robot from [Figure][figureai]? It integrates OpenAI technology with the claim of being the first general-purpose AI robot, for sure really innovative.
 
@@ -85,29 +88,31 @@ Therefore, Dr. Bengio thinks that despite the near-term benchmark timeline being
 
 Once discussed the “if”, let's discuss the “how”.
 
-I would like to highlight a recent [statement][ilya] (NeurIPS 2024) by another world-class expert, Ilya Suskever: “pretraining LLMs as we know today is finished, we have all but one internet”.
+I would like to highlight a recent [statement][ilya] (NeurIPS 2024) by another world-class expert, Ilya Suskever: “pretraining LLMs as we know today is finished, we have but one internet”.
 <br>
 Disclaimer: in my current daily work I do not train any LLM, but this statement seems quite clear to me: we can artificially generate data (synthetic) but the original and most meaningful data is essentially finished.
 
 Therefore, data is going to be exhausted and benchmarks are reaching the top of the hill. Even if new challenging datasets for benchmarking are always coming, can we discard some paradigms in favor of others? 
 
-Can we soften e.g. the [scaling law][scalinglaw]? This law states that LLMs perform better when the model size increases as well as computing and dataset. However, I remark on the phrase "we have all but one internet".
+Can we soften e.g. the [scaling law][scalinglaw]? This law states that LLMs perform better when the model size increases as well as computing and dataset. However, I remark on the phrase "we have but one internet".
 <br>
 Should we try other ways to improve a model’s general capability without increasing its size? New techniques e.g. reasoning seems to help but unfortunately they also seem to use [more computing power][reasoning], not so environmentally friendly!
 
-I am not a great fan of “bigger is better”, but I would say that another emergent prominent paradigm is “smaller and specialized”.
-Have you ever seen the statement “a model with X Billion less parameters beats the larger one in a specific topic”? It is recurrent at Hugging Face and in the AI community.
+I am not a great fan of “bigger is better”, but I would say that another emergent paradigm is “smaller and specialized”.
+Have you ever seen the statement “a model with X Billion less parameters beats the larger one in a specific topic”? It is recurrent at [Hugging Face][hg] and in the AI community.
 
-In my - not alone - opinion, models (not only GenAI) are going to be even more specialized to be practicals. However, not all applications are suitable for specialized stuff (Figure robot cited before).
+In my - not alone - opinion, models (not only GenAI) are going to be even more specialized. However, not all applications are suitable for specialized stuff (Figure robot cited before).
 
-Specialized => smaller => cheaper => larger - economic - adoption?
+Specialized => smaller => cheaper => large - economic - adoption?
 
 Finally, are GPTs STILL GPTs? No reasons to say no.
 
 <hr/>
 
 <p style="font-size: smaller; text-align: left;">If I didn't quote you or if you want to reach out feel free to <a href="mailto:simo.brazzo@gmail.com">contact me</a>.</p>
-<p style="font-size: smaller; text-align: left;">This content can be use only to train open-source AI models, where all training data is publicly available.</p>
+<p style="font-size: smaller; text-align: left;">© [Simone Brazzo] [2025] - Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>  with the following additional restriction: this content can be only used to train open-source AI models, where training data, models weights, architectures and training procedures are publicly available.</p>
+
+<hr/>
 
 [gptsaregpts]: https://arxiv.org/abs/2303.10130
 [figureai]: https://www.figure.ai/
@@ -119,3 +124,5 @@ Finally, are GPTs STILL GPTs? No reasons to say no.
 [livecodebench]: https://livecodebench.github.io/leaderboard.html
 [aime2024]: https://www.kaggle.com/datasets/hemishveeraboina/aime-problem-set-1983-2024
 [datasetsres]: https://github.com/openai/simple-evals?tab=readme-ov-file#benchmark-results
+[statista]: https://www.statista.com/outlook/tmo/artificial-intelligence/worldwide
+[hg]: https://huggingface.co/
